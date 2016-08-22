@@ -49,7 +49,7 @@
 
                     <configuration>
                         <webApp>
-                            <contextPath>/book</contextPath>
+                            <contextPath>/car</contextPath>
                         </webApp>
                         <httpConnector>
                             <port>8080</port>
