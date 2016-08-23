@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="CarAuction" />
+        <module name="car-auction" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="CarAuction" target="1.8" />
+      <module name="car-auction" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
