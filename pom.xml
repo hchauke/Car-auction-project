@@ -6,7 +6,7 @@
 
     <groupId>com.thoughtworks.car</groupId>
     <artifactId>car-auction</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>book-shelf</name>
     <url>http://maven.apache.org</url>
     <version>1.0-SNAPSHOT</version>
