@@ -1,4 +1,4 @@
-package com.thoughtworks.carauction;
+package com.thoughtworks.carauction.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
