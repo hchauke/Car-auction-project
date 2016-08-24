@@ -7,7 +7,12 @@
 <html>
 <body>
 
-    Login Message : Ooops!!!
+    <br>
+       <br>
+       <center>
+            <h1> This site is now working</h1>
+            ${message}
+       </center>
 </body>
 
 </html>
