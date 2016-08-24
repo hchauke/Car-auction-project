@@ -7,9 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class CarController {
     @RequestMapping(value = "/")
-    public String testView(ModelMap modelMap){
-
-        modelMap.addAttribute("message", "Created by Thougthworks Graduate devs");
+    public String testView(){
 
         return "testjsp";
     }

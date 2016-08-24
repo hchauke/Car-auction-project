@@ -11,7 +11,6 @@
        <br>
        <center>
             <h1> This site is now working</h1>
-            ${message}
        </center>
 </body>
 
