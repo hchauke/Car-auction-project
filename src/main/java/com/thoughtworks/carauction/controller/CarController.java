@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class CarController {
-    @RequestMapping(value = "/")
+    @RequestMapping(value = "/cars")
     public String testView(){
 
         return "testjsp";

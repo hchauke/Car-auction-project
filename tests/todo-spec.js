@@ -1,20 +1,14 @@
-describe('book-shelf homepage book list', function() {
-  it('should add a book', function() {
+describe('Homepage message', function() {
+  it('should return message', function() {
   	browser.ignoreSynchronization = true;
 
-    browser.get('http://localhost:9080/book/books');
-	
-	var link = element(by.css('a[href*="/book/shop-cart/1"]'));
-    expect(link.isDisplayed()).toBe(true);
+    browser.get('http://localhost:8080/car/cars');
 
-    var cart = element(by.css('a[href*="/book/shop-cart/cart-list"]'));
-    //expect(cart).toEqual(9);
+    element(by.tagName('h1')).getAttribute('value').then(function(text) {
+        console.log(text);
+    });
 
-    var elm = element(by.id('cartSize'));
-
-	elm.getAttribute('value').then(function (value) {
-	    console.log(value);
-	});
-
+    var myElement = element(by.css('.new'));
+    expect(myElement.isPresent()).toBeFalsy();
   });
 });
